@@ -17,6 +17,7 @@ public class LastWordLength {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()){
+            //scanner要通过nextInt方法，或者nextLine方法才能变成Int或string格式
             String str = scanner.nextLine();
             System.out.println(lengthOgLast(str));
         }

@@ -16,17 +16,14 @@ public class ChaNumInString {
         String all = "";
         String one = "";
         char[] ac;
-//        char temp;
         int num = 0;
 
         while (sc.hasNext()){
             all = sc.nextLine();
             one = sc.nextLine();
             ac = all.toCharArray();//字符串转化为数组
-//            temp存储需要的字符
-//            temp = one.charAt(0);
             for (int i = 0;i<ac.length;i++){
-                if (one.equalsIgnoreCase(String.valueOf(ac[i]))){
+                if (one.equalsIgnoreCase(String.valueOf(ac[i]))){//one是string类型，valueof(ac[i])也是string类型。
                     num++;
                 }
             }

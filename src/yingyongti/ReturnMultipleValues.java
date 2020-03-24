@@ -1,19 +1,26 @@
 package yingyongti;
-
+/**
+ * 总结:动态数组，集合，封装对象，引用传递
+ * 参考文献:https://www.cnblogs.com/zj0208/p/6207077.html
+ */
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class ReturnMultipleValues {
     public static void main(String[] args) {
-//        int[] result = calclute(10,20,30);
-//        System.out.println(result);//乱码因为获取的是地址值
-//        System.out.println(result[0]);
+        int[] result = calclute(10,20,30);//这一步让方法初始化了，其实也就是调用了。
+
+        System.out.println(result.toString());//与上一句效果相同,这里是数组类型，输出要转换为string
+        System.out.println("result为"+result[0]);//返回该地址真正的值。
+
         ReturnMultipleValues t = new ReturnMultipleValues();
         int [] arr = {1,2,3,4,5,6};
         Map<String,Integer> map = t.test2(arr);
+
+        System.out.println(t.test2(arr));//输出集合形式(格式像数学上的集合)
+        System.out.println("min:"+map.get("min"));//逐个输出
         System.out.println("max:"+map.get("max"));
-        System.out.println("min:"+map.get("min"));
 
 
 
@@ -31,32 +38,33 @@ public class ReturnMultipleValues {
         int ave = sum/3;
         //用静态数组
 //        int [] array = new int [] {sum,ave};
-        //用动态数组
+        //用动态数组   就是new一个数组，逐个初始化！！！相加几个参数就加几个！！！所以是动态的。最后return array;
         int [] array = new int[2];
         array[0] = sum;
         array[1] = ave;
-        System.out.println("Calclute方法内部数组的是："+array+"它乱码因为获取的是地址值");
+        System.out.println("Calclute方法内部数组的是："+array.toString()+"它乱码因为获取的是地址值");
         return array;
     }
 
     /**
-     * 法二：用数组
+     * 法二：用集合
      */
     public Map<String,Integer> test2(int[] arr){
         Map<String,Integer> map = new HashMap<>();
-        int max = Integer.MIN_VALUE;
-        int min = Integer.MAX_VALUE;
-        for (int i = 0;i<arr.length;i++){
-            if (arr[i] > max){
-                max = arr[i];
+        int max = Integer.MIN_VALUE;//即-2^31
+        int min = Integer.MAX_VALUE;//即2^31-1
+        for (int anArr : arr) { //该格式是新的for循环模式，anArr就是arr[i]
+            if (anArr > max) {
+                max = anArr;
             }
-            if (arr[i] < min){
-                min = arr[i];
+            if (anArr < min) {
+                min = anArr;
             }
         }
         map.put("max",max);
         map.put("min",min);
         return map;
     }
+
 
 }

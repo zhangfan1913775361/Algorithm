@@ -25,7 +25,14 @@ public class StringToGroup {
                 s=s.substring(8);
             }
         }
-
     }
-
 }
+/**
+ * 如果题目改为，字符串每三位用逗号分隔，如 123544523->123,544,523,该怎么做呢？
+ * 答：那就更简单了，三行代码：
+ * while（s.length(）>=3){
+ *     System.out.println(s.substring（0.3）+“，”)；
+ *     s = s.substring（3）;
+ * }
+ *
+ */

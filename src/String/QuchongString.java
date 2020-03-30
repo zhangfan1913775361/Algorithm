@@ -28,12 +28,12 @@ public class QuchongString {
     }
     /**
      * 字符串去重后的个数
-     * @param str
-     * @return
+     * @param str 需要去重的字符串
+     * @return 长度
      */
-    public static int getUniqueStrCount(String str) {
+    private static int getUniqueStrCount(String str) {
         char[] chars = str.toCharArray();
-        HashSet<String> set = new HashSet<String>();
+        HashSet<String> set = new HashSet<>();
         for(char ch : chars) {
             set.add(String.valueOf(ch));//用valueof把数组放进set中，hashset自动去重。返回size即可。
         }

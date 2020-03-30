@@ -1,4 +1,8 @@
 package String;
+/**
+ * 字符串去重，使用hashmap或hashset都行
+ * 使用hashmap的containsKey方法，用hashset的自动去重。
+ */
 
 
 import java.util.HashMap;

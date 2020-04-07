@@ -3,8 +3,8 @@ package String;
 public class replaceSpace {
 
     //最简单的做法,定义一个新的StringBuilder，之前的sb如果有空格，则加上“%20”，否则加上之前的str即可。
-    private static String replaceSpace3(StringBuilder str){
-        StringBuilder sb = new StringBuilder();
+    private static String replaceSpace3(String str){
+        StringBuilder sb = new StringBuilder(str);
         for (int i = 0;i<str.length();i++){
             if (str.charAt(i) == ' '){
                 sb.append("%20");
@@ -43,9 +43,12 @@ public class replaceSpace {
     public static void main(String[] args) {
 //        StringBuilder sb = new StringBuilder("I am a Student.");
 //        System.out.println(replaceSpace(sb));
-        StringBuilder sb1 = new StringBuilder("I am a Student");
-        System.out.println(replaceSpace3(sb1));
+//        StringBuilder sb1 = new StringBuilder("I am a Student");
+        String s = "I am a Student";
+        System.out.println(replaceSpace3(s));
+//        replaceSpace3(s);
     }
+
 
     //定义一个stringBuilder变量，先变成string，再变成char[]。
     // 每次判断该字符数组的空格，则在新StringBuilder变量上append("%20")

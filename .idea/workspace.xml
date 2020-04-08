@@ -10,6 +10,7 @@
       <change afterPath="$PROJECT_DIR$/src/BinaryTree/reConstructBinaryTree.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/String/calcMinStaff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/Distance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Distance.java" afterDir="false" />
     </list>
     <list id="1f76c160-4cfd-4362-b4e7-fd4bdd44edfc" name="New changelist" comment="./idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,13 +34,13 @@
           <entry key="project.open.time.20" value="8" />
           <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.22" value="3" />
-          <entry key="project.open.time.25" value="3" />
+          <entry key="project.open.time.25" value="4" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,15 +67,15 @@
         <counts>
           <entry key="dummy" value="13" />
           <entry key="gitignore" value="16" />
-          <entry key="java" value="12810" />
-          <entry key="txt" value="319" />
+          <entry key="java" value="12811" />
+          <entry key="txt" value="320" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="16" />
-          <entry key="JAVA" value="12810" />
-          <entry key="PLAIN_TEXT" value="332" />
+          <entry key="JAVA" value="12811" />
+          <entry key="PLAIN_TEXT" value="333" />
         </counts>
       </usages-collector>
     </session>
@@ -87,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/String/replaceSpace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="276">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
@@ -96,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/String/longestCommonSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
+            <state relative-caret-position="1196">
               <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
               <folding>
                 <element signature="e#100#101#0" expanded="true" />
@@ -127,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://G:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1549">
+            <state relative-caret-position="13892">
               <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
             </state>
           </provider>
@@ -136,8 +137,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/String/Distance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="200">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -231,13 +232,13 @@
         <option value="$PROJECT_DIR$/src/String/calcMinStaff.java" />
         <option value="$PROJECT_DIR$/src/String/distance.java" />
         <option value="$PROJECT_DIR$/src/String/stringDistance.java" />
-        <option value="$PROJECT_DIR$/src/String/Distance.java" />
         <option value="$PROJECT_DIR$/src/String/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/String/min.java" />
         <option value="$PROJECT_DIR$/src/String/getMinPathSum1.java" />
         <option value="$PROJECT_DIR$/src/String/getMinPathSum.java" />
         <option value="$PROJECT_DIR$/src/String/LIS.java" />
         <option value="$PROJECT_DIR$/src/String/longestCommonSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/String/Distance.java" />
       </list>
     </option>
   </component>
@@ -261,8 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -339,6 +338,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -500,6 +501,7 @@
       <workItem from="1586218702412" duration="12985000" />
       <workItem from="1586274260620" duration="675000" />
       <workItem from="1586336916519" duration="4349000" />
+      <workItem from="1586359575926" duration="259000" />
     </task>
     <task id="LOCAL-00001" summary="函数式接口">
       <created>1584105241763</created>
@@ -739,18 +741,25 @@
       <option name="project" value="LOCAL" />
       <updated>1586340204185</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="无">
+      <created>1586359709467</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1586359709467</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181474000" />
+    <option name="totallyTimeSpent" value="181733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7935943" visible="true" weight="0.21907842" />
-      <window_info id="Structure" order="1" sideWeight="0.2064057" side_tool="true" visible="true" weight="0.21907842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7918149" visible="true" weight="0.22231205" />
+      <window_info id="Structure" order="1" sideWeight="0.20818505" side_tool="true" visible="true" weight="0.22231205" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -815,7 +824,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Algorithm" />
     </ignored-roots>
-    <MESSAGE value="字符串最后一个单词长度" />
     <MESSAGE value="统计字符串中某个字母的数量" />
     <MESSAGE value="去重并排序" />
     <MESSAGE value="增加注释" />
@@ -840,7 +848,8 @@
     <MESSAGE value="动态规划，" />
     <MESSAGE value="无关紧要的修改" />
     <MESSAGE value="最长公共子序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="最长公共子序列" />
+    <MESSAGE value="无" />
+    <option name="LAST_COMMIT_MESSAGE" value="无" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -1027,9 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="130" selection-start-line="130" selection-end-line="130" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1065,9 +1071,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/replaceSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/longestCommonSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
           <folding>
-            <element signature="e#0#233#0" expanded="true" />
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/ThreeWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/getMinPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13892">
+          <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1095,56 +1144,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/replaceSpace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/LongestIncreasingSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1549">
-          <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/longestCommonSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/ThreeWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/getMinPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/Distance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        <state relative-caret-position="200">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>

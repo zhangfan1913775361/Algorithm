@@ -10,6 +10,19 @@ public class Reverse {
             int Value;
             ListNode next;
         }
+        //该方法为左程云版本，最推荐！！！标准答案！
+        public static ListNode reverseList(ListNode head) {
+            ListNode tmp = null;
+            ListNode pre = null;
+            while(head != null){
+                tmp = head.next;
+                head.next = pre;
+                pre = head;
+                head = tmp;
+            }
+            return pre;
+
+        }
         //用栈
         public static void ReverseByStack(ListNode root){
             Stack<ListNode> stack = new Stack<>();
@@ -30,6 +43,7 @@ public class Reverse {
                 System.out.println(root.Value+"");
             }
         }
+
         private static void printList(ListNode head) {
             while (head != null) {
                 System.out.print(head.Value + "->");
@@ -51,6 +65,7 @@ public class Reverse {
 //            System.out.println(root.Value);
 //            printList(root);
 //            ReverseByStack(root);
-            Rucursion(root);
+//            Rucursion(root);
+            System.out.println(reverseList(root).Value);
         }
 }

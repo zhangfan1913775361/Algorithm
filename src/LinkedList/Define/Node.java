@@ -1,7 +1,7 @@
 package LinkedList.Define;
 
 /**
- * 单链表
+ * 单链表的定义，要熟记
  */
 
 public class Node {

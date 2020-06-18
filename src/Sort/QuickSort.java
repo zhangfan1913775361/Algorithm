@@ -11,14 +11,15 @@ public class QuickSort {
     }
     private static String qsort(int[] arr,int low,int high){
         if(low < high){
-            int partion = partion(arr, low, high);
-            qsort(arr,low,partion-1);
-            qsort(arr,partion+1,high);
+            int pivot = partition(arr, low, high);
+            qsort(arr,low,pivot-1);
+            qsort(arr,pivot+1,high);
         }
         return Arrays.toString(arr);//数组转化为string。
 //        return arr.toString();//只把arr地址给string化了。
     }
-    private static int partion(int[] arr,int low,int high){
+    //这个方法是计算基准值pivot的，其实就是个index值
+    private static int partition(int[] arr,int low,int high){
         int baseVal = arr[high];
         while (low < high){
             while (low < high && arr[low] < baseVal){

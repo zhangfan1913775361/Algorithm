@@ -1,6 +1,11 @@
 package Array;
 
-public class FindTwoArrayValue {
+/**
+ * 二维数组中的查找。
+ * 它是剑指offer中最简单的一题了，判断某个数字在不在二维数组里，返回boolean型
+ */
+
+public class FindValueFromTwoArray {
     public static boolean find(int[][] matrix,int number){
         //输入条件判断
         if (matrix == null || matrix.length < 1||matrix[0].length<=1){
@@ -26,8 +31,8 @@ public class FindTwoArrayValue {
     public static void main(String[] args) {
         int[][] matrix = {{1,2,3}, {4,5,6}, {7,8,9}};
         System.out.println(find(matrix,5));
-        System.out.println(find(matrix, 10));    // 要查找的数不在数组中//
-//        System.out.println(find(matrix, 1));    // 要查找的数是数组中最小的数字
+//        System.out.println(find(matrix, 10));    // 要查找的数不在数组中//
+        System.out.println(find(matrix, 1));    // 要查找的数是数组中最小的数字
 //        System.out.println(find(matrix, 9));   // 要查找的数是数组中最大的数字
 //        System.out.println(find(matrix, 0));    // 要查找的数比数组中最小的数字还小
 //        System.out.println(find(matrix, 11));   // 要查找的数比数组中最大的数字还大

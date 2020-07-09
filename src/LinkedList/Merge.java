@@ -92,6 +92,26 @@ public class Merge {
         return tmp;
     }
 
+    public static ListNode Mymerge(ListNode head1,ListNode head2){
+        //判断
+        if (head1 == null){
+            return head2;
+        }
+        if (head2 == null){
+            return head1;
+        }
+        ListNode tmp = head1;
+        if (tmp.value > head2.value){
+            //head1大于head2时，将head2的下一个值和head1相比，此时将大值用tmp返回即可。
+            tmp = head2;
+            tmp.next = Mymerge(head1,head2.next);
+        }else {
+            //head1比head2小，则比较head1的下一个点和head2，将其赋给tmp的下一个值。
+            tmp.next =  Mymerge(head1.next,head2);
+        }
+        return tmp;
+    }
+
     /**
      * 输出链表的元素值
      *
@@ -138,7 +158,7 @@ public class Merge {
         head2.next.next.next.next.value = 7;
 
 //        head = merge(head, head2);
-        head = merge2(head, head2);
+        head = Mymerge(head, head2);
         printList(head);
     }
 }

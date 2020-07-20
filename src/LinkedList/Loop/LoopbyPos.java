@@ -46,6 +46,25 @@ public class LoopbyPos {
         }
         return true;
     }
+
+    //自己1分钟快速敲出来的。
+    public static boolean myCyclel(ListNode head){
+        if (head == null || head.next == null){
+            return false;
+        }
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast.next != null && fast.next.next != null){
+            if (slow == fast){
+                return true;
+            }else {
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+        }
+        return false;
+    }
+
     //用hash表，每次将一个节点的hash值放进hashset中，遇到重复的则说明有环。
     public static boolean hasCycle(ListNode head){
         Set<ListNode> nodes = new HashSet<>();
@@ -77,6 +96,7 @@ public class LoopbyPos {
 
         System.out.println(loopbyPos(n1));
         System.out.println(hasCycle(n1));
+        System.out.println(myCyclel(n1));
     }
 
     public static void main(String[] args) {

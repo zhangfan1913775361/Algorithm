@@ -9,11 +9,14 @@
       <change afterPath="$PROJECT_DIR$/src/BinaryTree/PrintFromTopToBottom.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BinaryTree/Test50.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BinaryTree/lowestCommonAncestorBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/reConstructBinaryTree.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/DP/longestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Loop/LoopbyPos.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/LinkedList/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/commonNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Remove/DeleteDuplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/ReverseAndPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/reverseBetween.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/reverseMtoN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyReverse.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/QuickAI/fenPianShangChuan.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/String/LargeNumberCalculate2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/String/PerfactWorld.java" afterDir="false" />
@@ -23,10 +26,18 @@
       <change afterPath="$PROJECT_DIR$/src/stack/LargeNumberCalculate.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/yingyongti/meituanBestTritic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/TreeIsSymmetrical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/mirror/TreeIsSymmetrical.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinaryTree/hasSubTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/hasSubTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/mirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/mirror/mirror.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Define/PrintListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Define/PrintListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Last_K_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Remove/Last_K_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Loop/EntryNodeOfLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Loop/EntryNodeOfLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/RemoveLastKth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Remove/RemoveLastKth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/commonNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/commonNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/String/Distance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Distance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/yingyongti/SomeNumToMaxVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/yingyongti/SomeNumToMaxVal.java" afterDir="false" />
     </list>
     <list id="1f76c160-4cfd-4362-b4e7-fd4bdd44edfc" name="New changelist" comment="./idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,33 +47,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1861896365">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="70" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="88" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="3" />
-          <entry key="project.open.time.18" value="5" />
-          <entry key="project.open.time.19" value="7" />
-          <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.20" value="11" />
-          <entry key="project.open.time.21" value="6" />
+          <entry key="project.open.time.18" value="6" />
+          <entry key="project.open.time.19" value="9" />
+          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.20" value="12" />
+          <entry key="project.open.time.21" value="7" />
           <entry key="project.open.time.22" value="5" />
-          <entry key="project.open.time.23" value="3" />
-          <entry key="project.open.time.24" value="2" />
-          <entry key="project.open.time.25" value="6" />
+          <entry key="project.open.time.23" value="5" />
+          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.25" value="7" />
           <entry key="project.open.time.26" value="3" />
-          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.27" value="3" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.3" value="5" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="74" />
+          <entry key="project.opened" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -70,7 +97,7 @@
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="189" />
+          <entry key="java" value="238" />
           <entry key="md" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -80,7 +107,7 @@
           <entry key="CLASS" value="1" />
           <entry key="Git file" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="189" />
+          <entry key="JAVA" value="238" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -89,15 +116,15 @@
         <counts>
           <entry key="dummy" value="13" />
           <entry key="gitignore" value="16" />
-          <entry key="java" value="23432" />
-          <entry key="txt" value="575" />
+          <entry key="java" value="29984" />
+          <entry key="txt" value="735" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="16" />
-          <entry key="JAVA" value="23432" />
-          <entry key="PLAIN_TEXT" value="588" />
+          <entry key="JAVA" value="29984" />
+          <entry key="PLAIN_TEXT" value="748" />
         </counts>
       </usages-collector>
     </session>
@@ -108,64 +135,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/Reverse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-201">
-              <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/ReverseDoubleListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/MyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/Define/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/Merge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="121" column="43" lean-forward="true" selection-start-line="108" selection-start-column="8" selection-end-line="121" selection-end-column="43" />
+            <state relative-caret-position="23">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/Last_K_Node.java">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/Loop/EntryNodeOfLoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="41" column="43" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="41" selection-end-column="43" />
+            <state relative-caret-position="205">
+              <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+              <folding>
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,26 +161,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/commonNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-592">
-              <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+            <state relative-caret-position="25">
+              <caret line="35" selection-start-line="35" selection-end-line="44" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPattern/Singleton/Some.java">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/mirror/TreeIsSymmetrical.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="161">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPattern/Singleton/Singleton.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/Loop/LoopbyPos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="253">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#1880#1881#0" expanded="true" />
+                <element signature="e#1904#1905#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,28 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/String/KuoHao.java" />
-        <option value="$PROJECT_DIR$/src/Array/DuoDuoPinTuan.java" />
-        <option value="$PROJECT_DIR$/src/String/KuoHaoDuiShu.java" />
-        <option value="$PROJECT_DIR$/src/String/KuoHaoPeidui.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreeNode.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/mirror.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/PrintFromTopToBottom.java" />
-        <option value="$PROJECT_DIR$/src/stack/LargeNumberCalculate.java" />
-        <option value="$PROJECT_DIR$/src/String/longestPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/String/longestSubPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/String/LargeNumberCalculate2.java" />
-        <option value="$PROJECT_DIR$/src/String/Test.java" />
-        <option value="$PROJECT_DIR$/src/String/PerfactWorld.java" />
-        <option value="$PROJECT_DIR$/src/yingyongti/countLeastBoat.java" />
-        <option value="$PROJECT_DIR$/src/yingyongti/shortestRout.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/hasSubTree.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/lowestCommonAncestor.java" />
-        <option value="$PROJECT_DIR$/src/yingyongti/add.java" />
-        <option value="$PROJECT_DIR$/src/yingyongti/addCollection2.java" />
-        <option value="$PROJECT_DIR$/src/yingyongti/addCollection.java" />
-        <option value="$PROJECT_DIR$/src/yingyongti/minShoppingPrice.java" />
-        <option value="$PROJECT_DIR$/src/yingyongti/meituanBestTritic.java" />
         <option value="$PROJECT_DIR$/src/yingyongti/Like.java" />
         <option value="$PROJECT_DIR$/src/yingyongti/luckyStar.java" />
         <option value="$PROJECT_DIR$/src/DP/numSquares.java" />
@@ -257,21 +230,43 @@
         <option value="$PROJECT_DIR$/src/DP/longestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/Array/FindChongfuNumber.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/Define/Node.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/commonNode.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/Define/PrintListNode.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ReverseDoubleListNode.java" />
         <option value="$PROJECT_DIR$/src/Array/Find.java" />
         <option value="$PROJECT_DIR$/src/Array/FindAllSubSetOfSet.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/Is.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/TreeIsSymmetrical.java" />
         <option value="$PROJECT_DIR$/src/Array/FindTwoArrayValue.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/Singleton/DoubleLock.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/Singleton/LazyMan.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/Singleton/Singleton.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/Singleton/Some.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/Reverse.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/Last_K_Node.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/reverseBetween.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/reverseMid.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/reverseMtoN.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/Define/ReverseAndPrint.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/ReverseAndPrint.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/FANZhuand打印lieb.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/commonNode.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/RemoveLastKth.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/printTree.java" />
+        <option value="$PROJECT_DIR$/src/Max.java" />
+        <option value="$PROJECT_DIR$/src/Test1.java" />
+        <option value="$PROJECT_DIR$/src/yingyongti/SomeNumToMaxVal.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/Reverse.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/Define/PrintListNode.java" />
+        <option value="$PROJECT_DIR$/src/yingyongti/Nfactorial.java" />
+        <option value="$PROJECT_DIR$/src/MyReverse.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/TreeIsSymmetrical.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/mirror/mirror.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/Reconstruction/Reconstructy.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/Reconstruction/ReconstructByLRD.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/Reconstruction/reConstructBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/Merge.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/Last_K_Node.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/Remove/Last_K_Node.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/Remove/DeleteDuplication.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/Loop/EntryNodeOfLoop.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/Loop/LoopbyPos.java" />
       </list>
     </option>
   </component>
@@ -281,11 +276,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="189" />
-    <option name="y" value="72" />
-    <option name="width" value="1641" />
-    <option name="height" value="1032" />
+    <option name="x" value="703" />
+    <option name="y" value="48" />
+    <option name="width" value="1364" />
+    <option name="height" value="944" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -295,6 +296,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,18 +310,6 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Singleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -336,7 +328,15 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="QuickAI" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="Loop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="Remove" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -354,12 +354,6 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yingyongti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -370,9 +364,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,14 +371,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592785432365" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595242947255" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mml/mml" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\aaa\Algorithm\src\BinaryTree\Reconstruction" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\workspace\aaa\Algorithm\src\NowCoder\ basic_class_01" />
     </key>
@@ -404,13 +398,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListCycle">
+  <component name="RunManager" selected="Application.LoopbyPos">
+    <configuration name="EntryNodeOfLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.Loop.EntryNodeOfLoop" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.Loop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Last_K_Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.Last_K_Node" />
+      <option name="MAIN_CLASS_NAME" value="LinkedList.Remove.Last_K_Node" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="LinkedList.Remove.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,12 +425,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.LinkedListCycle" />
+    <configuration name="LoopbyPos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.Loop.LoopbyPos" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="LinkedList.Loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,12 +438,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.Reverse" />
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.Merge" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="LinkedList.Remove.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,25 +451,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Singleton.Singleton" />
+    <configuration name="reConstructBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.Reconstruction.reConstructBinaryTree" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.Singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Some" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Singleton.Some" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DesignPattern.Singleton.*" />
+          <option name="PATTERN" value="BinaryTree.Reconstruction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -471,19 +465,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Singleton" />
-      <item itemvalue="Application.Some" />
-      <item itemvalue="Application.Reverse" />
+      <item itemvalue="Application.reConstructBinaryTree" />
+      <item itemvalue="Application.EntryNodeOfLoop" />
+      <item itemvalue="Application.Merge" />
       <item itemvalue="Application.Last_K_Node" />
-      <item itemvalue="Application.LinkedListCycle" />
+      <item itemvalue="Application.LoopbyPos" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedListCycle" />
+        <item itemvalue="Application.LoopbyPos" />
+        <item itemvalue="Application.EntryNodeOfLoop" />
         <item itemvalue="Application.Last_K_Node" />
-        <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.Singleton" />
-        <item itemvalue="Application.Some" />
+        <item itemvalue="Application.Merge" />
+        <item itemvalue="Application.reConstructBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -571,91 +565,26 @@
       <workItem from="1592501847813" duration="42000" />
       <workItem from="1592502615345" duration="785000" />
       <workItem from="1592584039172" duration="1898000" />
-      <workItem from="1592741106830" duration="4651000" />
-    </task>
-    <task id="LOCAL-00012" summary="字符串分组">
-      <created>1584171598070</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1584171598070</updated>
-    </task>
-    <task id="LOCAL-00013" summary="修改">
-      <created>1584180324765</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1584180324765</updated>
-    </task>
-    <task id="LOCAL-00014" summary="股票交易最佳时间">
-      <created>1584789934561</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1584789934561</updated>
-    </task>
-    <task id="LOCAL-00015" summary="返回多个值">
-      <created>1584805645053</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1584805645053</updated>
-    </task>
-    <task id="LOCAL-00016" summary="返回多个值">
-      <created>1585019105249</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1585019105249</updated>
-    </task>
-    <task id="LOCAL-00017" summary="进制转换">
-      <created>1585021058227</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1585021058227</updated>
-    </task>
-    <task id="LOCAL-00018" summary="进制转换">
-      <created>1585044720823</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1585044720823</updated>
-    </task>
-    <task id="LOCAL-00019" summary="股票最佳投资时间">
-      <created>1585151760440</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1585151760440</updated>
-    </task>
-    <task id="LOCAL-00020" summary="字符串三个一组">
-      <created>1585318209952</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1585318209952</updated>
-    </task>
-    <task id="LOCAL-00021" summary="猴子分桃">
-      <created>1585582906993</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1585582906993</updated>
-    </task>
-    <task id="LOCAL-00022" summary="字符串去重">
-      <created>1585583564574</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1585583564574</updated>
-    </task>
-    <task id="LOCAL-00023" summary="字符串自动去重：注释">
-      <created>1585583703215</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1585583703215</updated>
+      <workItem from="1592741106830" duration="24350000" />
+      <workItem from="1593074864748" duration="669000" />
+      <workItem from="1593096211856" duration="1215000" />
+      <workItem from="1593140571881" duration="2546000" />
+      <workItem from="1593170311393" duration="3832000" />
+      <workItem from="1593221275905" duration="7842000" />
+      <workItem from="1593520354135" duration="13560000" />
+      <workItem from="1593856067780" duration="1163000" />
+      <workItem from="1593859812839" duration="986000" />
+      <workItem from="1593940684180" duration="603000" />
+      <workItem from="1594109857986" duration="9547000" />
+      <workItem from="1594423868547" duration="1194000" />
+      <workItem from="1594477669707" duration="82000" />
+      <workItem from="1594536049312" duration="329000" />
+      <workItem from="1594540470071" duration="1485000" />
+      <workItem from="1594566222422" duration="754000" />
+      <workItem from="1594819258380" duration="5110000" />
+      <workItem from="1594873115075" duration="2050000" />
+      <workItem from="1595039428789" duration="18078000" />
+      <workItem from="1595240931124" duration="2008000" />
     </task>
     <task id="LOCAL-00024" summary="字符串分组">
       <created>1585584013638</created>
@@ -916,18 +845,102 @@
       <option name="project" value="LOCAL" />
       <updated>1592784965683</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="找出链表是否有环">
+      <created>1592785466523</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1592785466523</updated>
+    </task>
+    <task id="LOCAL-00062" summary="输出两个有序链表的公共结点">
+      <created>1592879070705</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1592879070705</updated>
+    </task>
+    <task id="LOCAL-00063" summary="单链表删除倒数第K个元素">
+      <created>1592881954266</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1592881954266</updated>
+    </task>
+    <task id="LOCAL-00064" summary="用队列顺序打印二叉树">
+      <created>1593186771752</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1593186771753</updated>
+    </task>
+    <task id="LOCAL-00065" summary="非负整数拼接成最大数">
+      <created>1593246731684</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1593246731685</updated>
+    </task>
+    <task id="LOCAL-00066" summary="N的阶乘，遍历与递归算法">
+      <created>1594291495045</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1594291495046</updated>
+    </task>
+    <task id="LOCAL-00067" summary="链表合并">
+      <created>1594291526337</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1594291526337</updated>
+    </task>
+    <task id="LOCAL-00068" summary="倒数第k个节点，用两个指针，一个快走一个慢走">
+      <created>1594291559950</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1594291559952</updated>
+    </task>
+    <task id="LOCAL-00069" summary="重建二叉树">
+      <created>1595039524575</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1595039524575</updated>
+    </task>
+    <task id="LOCAL-00070" summary="返回链表环的入口">
+      <created>1595055565733</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1595055565733</updated>
+    </task>
+    <task id="LOCAL-00071" summary="修改后的链表有环">
+      <created>1595057189723</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1595057189723</updated>
+    </task>
+    <task id="LOCAL-00072" summary="两个递增链表的合并">
+      <created>1595058074455</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1595058074455</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330292000" />
+    <option name="totallyTimeSpent" value="423044000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="469" y="32" width="909" height="629" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8286385" visible="true" weight="0.2586904" />
-      <window_info id="Structure" order="1" sideWeight="0.1713615" side_tool="true" visible="true" weight="0.2586904" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6025974" visible="true" weight="0.09165687" />
+      <window_info id="Structure" order="1" sideWeight="0.39740258" side_tool="true" visible="true" weight="0.09165687" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -935,25 +948,25 @@
       <window_info id="Favorites" order="6" sideWeight="0.5014245" side_tool="true" weight="0.22150365" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49717057" visible="true" weight="0.24199288" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49636218" visible="true" weight="0.22535211" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47686833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4995958" weight="0.31316727" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4995958" weight="0.42806393" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3113879" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50282943" side_tool="true" weight="0.29537368" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3846154" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31083483" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50363785" side_tool="true" weight="0.37833038" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.18827708" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Ant Build" order="4" visible="true" weight="0.109135" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.12772837" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32983023" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.118835896" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -992,18 +1005,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Algorithm" />
     </ignored-roots>
-    <MESSAGE value="括号配对" />
-    <MESSAGE value="判断B二叉树为A二叉树的子树" />
-    <MESSAGE value="二叉搜索树的最低公共祖先" />
-    <MESSAGE value="镜像二叉树" />
-    <MESSAGE value="多人坐船问题" />
-    <MESSAGE value="Dijkstra最短路径问题" />
-    <MESSAGE value="最低祖先" />
-    <MESSAGE value="堆排序" />
-    <MESSAGE value="集合相加" />
-    <MESSAGE value="最小购买策略" />
-    <MESSAGE value="序列相似" />
-    <MESSAGE value="幸运星" />
     <MESSAGE value="完全平方数最小个数" />
     <MESSAGE value="雷劈数" />
     <MESSAGE value="水仙花数" />
@@ -1017,7 +1018,19 @@
     <MESSAGE value="增加单例模式" />
     <MESSAGE value="快排" />
     <MESSAGE value="返回链表倒数第k个节点" />
-    <option name="LAST_COMMIT_MESSAGE" value="返回链表倒数第k个节点" />
+    <MESSAGE value="找出链表是否有环" />
+    <MESSAGE value="输出两个有序链表的公共结点" />
+    <MESSAGE value="单链表删除倒数第K个元素" />
+    <MESSAGE value="用队列顺序打印二叉树" />
+    <MESSAGE value="非负整数拼接成最大数" />
+    <MESSAGE value="N的阶乘，遍历与递归算法" />
+    <MESSAGE value="链表合并" />
+    <MESSAGE value="倒数第k个节点，用两个指针，一个快走一个慢走" />
+    <MESSAGE value="重建二叉树" />
+    <MESSAGE value="返回链表环的入口" />
+    <MESSAGE value="修改后的链表有环" />
+    <MESSAGE value="两个递增链表的合并" />
+    <option name="LAST_COMMIT_MESSAGE" value="两个递增链表的合并" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1033,119 +1046,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/yingyongti/Demon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yingyongti/meituanBestTritic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yingyongti/addCollection2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yingyongti/zhengfangx.java" />
-    <entry file="file://$PROJECT_DIR$/src/String/ThreeWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yingyongti/shortestRout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yingyongti/ReturnMultipleValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yingyongti/narcissus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yingyongti/minShoppingPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yingyongti/countLeastBoat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/LastWordLength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/LargeNumberCalculate2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/KuoHaoPeidui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/getMinPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/Distance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/calcMinStaff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stack/LargeNumberCalculate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1164,13 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/Define/PrintListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" selection-start-line="21" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1202,69 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/PrintFromTopToBottom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/hasSubTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1679">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/lowestCommonAncestor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/lowestCommonAncestorBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/mirror.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/reConstructBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/StackToQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Test50.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/TreeIsSymmetrical.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/FindAllSubSetOfSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1290,9 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1310,20 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/ReverseDoubleListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPattern/Singleton/Some.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1338,41 +1151,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/LastKNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="121" column="43" lean-forward="true" selection-start-line="108" selection-start-column="8" selection-end-line="121" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/commonNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-592">
-          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/Last_K_Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="41" column="43" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="41" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/LastKNode.java" />
     <entry file="file://$PROJECT_DIR$/src/LinkedList/Define/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1380,10 +1159,236 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/FANZhuand打印lieb.java" />
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/ReverseAndPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/reverseMtoN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/ReverseDoubleListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1146">
+          <caret line="86" column="35" lean-forward="true" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yingyongti/SomeNumToMaxVal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yingyongti/Nfactorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="276">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/reverseBetween.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25277">
+          <caret line="1156" column="26" selection-start-line="1156" selection-start-column="26" selection-end-line="1156" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/hasSubTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/lowestCommonAncestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/lowestCommonAncestorBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/mirror/mirror.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/PrintFromTopToBottom2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2645">
+          <caret line="116" column="36" selection-start-line="116" selection-start-column="36" selection-end-line="116" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Reconstruction/ReconstructByLRD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/StackToQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Test50.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/Loop.java" />
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Reconstruction/reConstructBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/Define/PrintListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/Remove/DeleteDuplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/Remove/RemoveLastKth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/Remove/Last_K_Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/PrintFromTopToBottom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/mirror/TreeIsSymmetrical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/commonNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="35" selection-start-line="35" selection-end-line="44" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/Loop/EntryNodeOfLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+          <folding>
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/Loop/LoopbyPos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1462,5 +1467,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

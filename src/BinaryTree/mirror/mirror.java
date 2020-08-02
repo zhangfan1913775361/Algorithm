@@ -1,4 +1,4 @@
-package BinaryTree;
+package BinaryTree.mirror;
 
 public class mirror {
     /**
@@ -11,7 +11,7 @@ public class mirror {
     }
 
     /**
-     * 请完成一个函数，输入…个二叉树，该函数输出它的镜像
+     * 请完成一个函数，输入一个二叉树，该函数输出它的镜像
      * 总结：利用一个tmp对象，对left和right两个节点进行交换，并递归交换下去。
      *
      * @param node 二叉树的根结点
@@ -44,6 +44,7 @@ public class mirror {
         //   6     10
         //  / \   / \
         // 5   7 9  11
+        //二叉树的定义方法
         BinaryTreeNode root = new BinaryTreeNode();
         root.value = 8;
         root.left = new BinaryTreeNode();

@@ -2,16 +2,13 @@ package LinkedList.Define;
 
 /**
  * Created by zhangfan 2020/6/14
+ * 打印链表。（这是最简单的一个代码）
  */
 public class PrintListNode {
     //ListNode需要为静态，不然调用不了
     private static class ListNode {
         private int value;
         private ListNode next;
-        //下面可以不写，不然初始化的时候，括号里也要写值。
-//        private ListNode(int data){
-//            this.value = data;
-//        }
     }
 
     /**
@@ -56,10 +53,5 @@ public class PrintListNode {
         head.next.next.next.next.next.next.next.next.value = 9;
 
         printList(head);
-//        head = reverseList(head);
-//        printList(head);
-//        head = reverseList2(head);
-//        printList(head);
-
     }
 }

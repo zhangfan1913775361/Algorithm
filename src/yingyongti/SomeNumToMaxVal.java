@@ -1,7 +1,5 @@
 package yingyongti;
 
-import sun.java2d.pipe.ValidatePipe;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -47,7 +45,6 @@ public class SomeNumToMaxVal {
         }
         return temp;
     }
-
 
     public static String largestNumber(int[] nums) {
         String[] strNums = new String[nums.length];

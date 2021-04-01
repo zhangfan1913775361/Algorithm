@@ -61,21 +61,18 @@ public class hasSubTree {
      * @return 树B是树A的子结构，false：树B是不树A的子结构
      */
     public static boolean match(BinaryTreeNode root1, BinaryTreeNode root2) {
-        // 只要两个对象是同一个就返回true
+        //匹配算法的前三步一毛一样
         if (root1 == root2) {
             return true;
         }
-
-        // 只要树B的根结点点为空就返回true
         if (root2 == null) {
             return true;
         }
-        // 树B的根结点不为空，如果树A的根结点为空就返回false
         if (root1 == null) {
             return false;
         }
 
-        // 如果两个结点的值相等，则分别判断其左子结点和右子结点，（确保都相等才真的相等）
+        //递归匹配左右都相等！！才是真的相等。
         if (root1.value == root2.value) {
             return match(root1.left, root2.left) && match(root1.right, root2.right);
         }

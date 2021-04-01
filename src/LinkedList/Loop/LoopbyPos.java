@@ -54,15 +54,18 @@ public class LoopbyPos {
         }
         ListNode fast = head;
         ListNode slow = head;
-        while (fast.next != null && fast.next.next != null){
-            if (slow == fast){
-                return true;
-            }else {
+        while (slow != fast){
+            if (fast.next !=null && fast.next.next !=null){
                 slow = slow.next;
                 fast = fast.next.next;
+
+            }else {
+                return false;
             }
-        }
-        return false;
+
+            }
+
+        return true;
     }
 
     //用hash表，每次将一个节点的hash值放进hashset中，遇到重复的则说明有环。

@@ -12,14 +12,14 @@ import java.util.Arrays;
 
 public class HeapSort    {
     public static void main(String []args){
-        int []arr = {9,8,7,6,5,4,3,2,1};
+        int []arr = {9,8,3,5,6,4,7,2,1};
         sort(arr);
         System.out.println(Arrays.toString(arr));
     }
     public static void sort(int []arr){
         //1.构建大顶堆
         for(int i=arr.length/2-1;i>=0;i--){
-            //从第一个非叶子结点从下至上，从右至左调整结构
+//            从第一个非叶子结点从下至上，从右至左调整结构
             adjustHeap(arr,i,arr.length);
         }
         //2.调整堆结构+交换堆顶元素与末尾元素

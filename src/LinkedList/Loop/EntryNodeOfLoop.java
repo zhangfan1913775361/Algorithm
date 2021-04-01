@@ -29,7 +29,7 @@ public class EntryNodeOfLoop {
             return value +"";
         }
     }
-    public static ListNode EntryNodeOfLoop(ListNode pHead){
+    public static ListNode entryNodeOfLoop(ListNode pHead){
         //判断链表头结点是否为空
         if(pHead == null || pHead.next == null)
             return null;
@@ -104,7 +104,7 @@ public class EntryNodeOfLoop {
         n4.next = n5;
         n5.next = n6;
 
-        System.out.println(EntryNodeOfLoop(n1));
+        System.out.println(entryNodeOfLoop(n1));
         System.out.println(meetingNode(n1));
     }
 
@@ -127,7 +127,7 @@ public class EntryNodeOfLoop {
         n5.next = n6;
         n6.next = n3;
 
-        System.out.println(EntryNodeOfLoop(n1));
+        System.out.println(entryNodeOfLoop(n1));
         System.out.println(meetingNode(n1));
     }
 
@@ -149,7 +149,7 @@ public class EntryNodeOfLoop {
         n5.next = n6;
         n6.next = n6;
 
-        System.out.println(EntryNodeOfLoop(n1));
+        System.out.println(entryNodeOfLoop(n1));
         System.out.println(meetingNode(n1));
     }
 

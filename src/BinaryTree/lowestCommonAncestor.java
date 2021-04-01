@@ -19,4 +19,65 @@ package BinaryTree;
  */
 
 public class lowestCommonAncestor {
+    private static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    }
+
+    public static TreeNode lowanstor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null) {
+            return null;
+        }
+        if (root == p || root == q) {
+            return root;
+        }
+        //三种情况，pq一个在左子树，一个在右子树，那么当前点就是最近祖先
+        //p q都在左子树
+        TreeNode left = lowanstor(root.left,p,q);
+        //p q都在右子树
+        TreeNode right = lowanstor(root.right,p,q);
+        if (left != null && right != null){
+            return root;
+        }
+        if (left != null){
+            return left;
+        }
+        if (right != null){
+            return right;
+        }
+        return null;
+    }
+
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode();
+        root.val = 6;
+        root.right = new TreeNode();
+        root.right.val = 8;
+        root.left = new TreeNode();
+        root.left.val = 2;
+        root.left.left = new TreeNode();
+        root.left.left.val = 0;
+        root.left.right = new TreeNode();
+        root.left.right.val = 4;
+        root.right.left = new TreeNode();
+        root.right.left.val = 7;
+        root.right.right = new TreeNode();
+        root.right.right.val = 9;
+        root.left.right.left = new TreeNode();
+        root.left.right.left.val = 3;
+        root.left.right.right = new TreeNode();
+        root.left.right.right.val = 5;
+/**
+ *  *            6
+ *  *          /  \
+ *  *         2    8
+ *  *        / \  / \
+ *  *       0  4 7  9
+ *  *         /\
+ *  *       3  5
+ */
+
+        System.out.println(lowanstor(root,root.left.right.left,root.right).val);
+    }
 }
